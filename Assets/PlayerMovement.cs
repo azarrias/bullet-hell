@@ -5,10 +5,11 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController characterController;
-    public float speed = 30f;
-    public float gravity = -9.81f;
+    public float speed = 20f;
+    public float gravity = -20f;
     public Transform groundCheck;
-    public float groundDistance = 0.4f;
+    public float groundDistance = 0.05f;
+    public float jumpHeight = 3f;
     public LayerMask groundMask;
 
     private Vector2 velocity;
@@ -18,12 +19,17 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         velocity.x = Input.GetAxis("Horizontal") * speed;
+        Debug.Log(velocity.x);
         characterController.Move(Vector2.right * velocity.x * Time.deltaTime);
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundDistance, groundMask);
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
+            if (Input.GetButtonDown("Jump"))
+            {
+                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            }
         }
         else
         {
