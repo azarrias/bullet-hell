@@ -133,6 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 478363824}
   - component: {fileID: 478363825}
+  - component: {fileID: 478363826}
+  - component: {fileID: 478363827}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -174,6 +176,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameScene: {fileID: 102900000, guid: 0f89e7970a3ccd247a405420a1bbfa3d, type: 3}
+--- !u!114 &478363826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478363823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776605e5654d1384789409f860e95758, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationAngle: 5
+  speed: 2
+  rotationAxis: 2
+--- !u!114 &478363827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478363823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a36aa8fd20033943a6797b423b0a92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minScale: 1
+  maxScale: 1.2
+  speed: 2
 --- !u!1001 &855414893
 PrefabInstance:
   m_ObjectHideFlags: 0
