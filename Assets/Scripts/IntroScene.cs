@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class IntroScene : MonoBehaviour
+public class IntroScene : BaseScene
 {
     public Object menuScene;
     public GameObject underDogsSprite;
@@ -30,6 +30,6 @@ public class IntroScene : MonoBehaviour
         yield return StartCoroutine(Fader.Fade(fadeUIImage, Fader.FadeType.FadeOut, 1f));
         yield return new WaitForSeconds(gameTitleTextDuration);
         yield return StartCoroutine(Fader.Fade(fadeUIImage, Fader.FadeType.FadeIn, 2f));
-        SceneManager.LoadScene(menuScene.name);
+        SceneManager.LoadScene(MENU_SCENE);
     }
 }

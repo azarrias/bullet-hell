@@ -22,7 +22,6 @@ public static class Fader
             while (alpha >= targetAlpha)
             {
                 SetImageAlpha(ref alpha, fadeUIImage, fadeType, fadeDuration);
-                Debug.Log(alpha);
                 yield return null;
             }
         }
