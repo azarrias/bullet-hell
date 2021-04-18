@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CustomPhysics2D : MonoBehaviour
+public class CustomPhysicsObject2D : MonoBehaviour
 {
     public float gravityMultiplier = 1f;
     public float minimumGroundNormalY = 0.65f;
     private Vector2 groundNormal;
-    private bool grounded = false;
+    protected bool grounded = false;
 
-    private Vector2 velocity;
-    private Vector2 targetVelocity;
+    protected Vector2 velocity;
+    protected Vector2 targetVelocity;
 
     private Rigidbody2D rb;
     private const float MINIMUM_MOVING_DISTANCE = 0.001f;
@@ -25,18 +25,18 @@ public class CustomPhysics2D : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Start()
+    private void Start()
     {
         // Use the Physics2D settings to determine what layers are going to be checked for collisions
         contactFilter.useTriggers = false;
         contactFilter.SetLayerMask(Physics2D.GetLayerCollisionMask(gameObject.layer));
         contactFilter.useLayerMask = true;
-        targetVelocity = Vector2.right;
     }
 
-    void Update()
+    private void Update()
     {
-        
+        targetVelocity = Vector2.zero;
+        ComputeVelocity();
     }
 
     private void FixedUpdate()
@@ -56,6 +56,10 @@ public class CustomPhysics2D : MonoBehaviour
 
         movement = Vector2.up * deltaPosition.y;
         Move(movement, true);
+    }
+
+    protected virtual void ComputeVelocity()
+    {
     }
 
     private void Move(Vector2 movement, bool yMovement)

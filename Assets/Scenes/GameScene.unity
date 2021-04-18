@@ -863,8 +863,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &2098916874
-BoxCollider2D:
+--- !u!70 &2098916874
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -876,19 +876,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.22346616, y: -0.16759968}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.67, y: 5.56}
-    newSize: {x: 5.67, y: 5.56}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.094543, y: 4.3309364}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.23401427, y: -0.11700773}
+  m_Size: {x: 1.9257722, y: 4.5667887}
+  m_Direction: 0
 --- !u!114 &2098916875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -898,8 +888,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2098916870}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a5e60c1c7683e34d97dd00c8725803d, type: 3}
+  m_Script: {fileID: 11500000, guid: 155c1034b826f86438b34bf8788522d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gravityMultiplier: 1
   minimumGroundNormalY: 0.65
+  jumpingSpeed: 7
+  movingSpeed: 7
