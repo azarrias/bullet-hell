@@ -6,9 +6,12 @@ public class CustomPhysics2D : MonoBehaviour
 {
     public float gravityMultiplier = 1f;
     public float minimumGroundNormalY = 0.65f;
+    private Vector2 groundNormal;
     private bool grounded = false;
 
     private Vector2 velocity;
+    private Vector2 targetVelocity;
+
     private Rigidbody2D rb;
     private const float MINIMUM_MOVING_DISTANCE = 0.001f;
     private const float PADDING_RADIUS = 0.01f;
@@ -28,6 +31,7 @@ public class CustomPhysics2D : MonoBehaviour
         contactFilter.useTriggers = false;
         contactFilter.SetLayerMask(Physics2D.GetLayerCollisionMask(gameObject.layer));
         contactFilter.useLayerMask = true;
+        targetVelocity = Vector2.right;
     }
 
     void Update()
@@ -37,9 +41,20 @@ public class CustomPhysics2D : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // Handle horizontal movement first, since it handles slopes better
         velocity += gravityMultiplier * Physics2D.gravity * Time.deltaTime;
+        velocity.x = targetVelocity.x;
+
         var deltaPosition = velocity * Time.deltaTime;
-        var movement = Vector2.up * deltaPosition.y;
+
+        // This will take care of the movement direction for slopes
+        var direction = new Vector2(groundNormal.y, -groundNormal.x);
+        var movement = direction * deltaPosition.x;
+        Move(movement, false);
+
+        grounded = false;
+
+        movement = Vector2.up * deltaPosition.y;
         Move(movement, true);
     }
 
@@ -65,6 +80,7 @@ public class CustomPhysics2D : MonoBehaviour
                     grounded = true;
                     if (yMovement)
                     {
+                        groundNormal = currentNormal;
                         currentNormal.x = 0;
                     }
                 }
