@@ -16,6 +16,7 @@ public class CharacterController2D : CustomPhysicsObject2D
         {
             velocity.y = jumpingSpeed;
         }
+        // If the jump button is let vertical velocity is reduced
         else if (Input.GetButtonUp("Jump"))
         {
             if (velocity.y > 0)
