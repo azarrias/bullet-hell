@@ -1,40 +1,40 @@
 fileFormatVersion: 2
-guid: 57608bf388ccf3f4cbc2851aaf45dc20
+guid: f8b2dba99ff5ac94293bb36c6c68e08a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8793639957104055765
-    second: idle_0
+      213: 2593785514318862009
+    second: shoot_up_00-sheet_0
   - first:
-      213: 6084859605308855041
-    second: idle_1
+      213: -1387311346678604489
+    second: shoot_up_00-sheet_1
   - first:
-      213: 8603369663158992956
-    second: idle_2
+      213: 3458165834659189194
+    second: shoot_up_00-sheet_2
   - first:
-      213: -5906421172241655209
-    second: idle_3
+      213: -2973333063397054962
+    second: shoot_up_00-sheet_3
   - first:
-      213: 5704420531145803721
-    second: idle_4
+      213: 5515048537946938378
+    second: shoot_up_00-sheet_4
   - first:
-      213: -148617073940163930
-    second: idle_5
+      213: 7560835579168977253
+    second: shoot_up_00-sheet_5
   - first:
-      213: 4729606205655721961
-    second: idle_6
+      213: 8221964176036918024
+    second: shoot_up_00-sheet_6
   - first:
-      213: -2073685336235588006
-    second: idle_7
+      213: -9015675759547606978
+    second: shoot_up_00-sheet_7
   - first:
-      213: 512795395688303107
-    second: idle_8
+      213: -19977299094070868
+    second: shoot_up_00-sheet_8
   - first:
-      213: 5667770778836351527
-    second: idle_9
+      213: -1241322822005288885
+    second: shoot_up_00-sheet_9
   - first:
-      213: -1480364998338425778
-    second: idle_10
+      213: 6656027172974329674
+    second: shoot_up_00-sheet_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -65,7 +65,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -148,13 +148,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_0
+      name: shoot_up_00-sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 983
-        height: 953
+        width: 1021
+        height: 1028
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d55ed543f8490a70800000000000000
-      internalID: 8793639957104055765
+      spriteID: 9b6978cce2afef320800000000000000
+      internalID: 2593785514318862009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_1
+      name: shoot_up_00-sheet_1
       rect:
         serializedVersion: 2
-        x: 983
+        x: 1021
         y: 0
-        width: 983
-        height: 953
+        width: 1021
+        height: 1028
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 103de827293c17450800000000000000
-      internalID: 6084859605308855041
+      spriteID: 73d5a543ea74fbce0800000000000000
+      internalID: -1387311346678604489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_2
+      name: shoot_up_00-sheet_2
       rect:
         serializedVersion: 2
-        x: 1966
+        x: 2042
         y: 0
-        width: 983
-        height: 953
+        width: 1021
+        height: 1028
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c30c6f3402f456770800000000000000
-      internalID: 8603369663158992956
+      spriteID: ac1d045218fddff20800000000000000
+      internalID: 3458165834659189194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_3
+      name: shoot_up_00-sheet_3
       rect:
         serializedVersion: 2
-        x: 2949
+        x: 3063
         y: 0
-        width: 983
-        height: 953
+        width: 1021
+        height: 1028
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,20 +225,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75a90b6cc3d280ea0800000000000000
-      internalID: -5906421172241655209
+      spriteID: e066b4d05599cb6d0800000000000000
+      internalID: -2973333063397054962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_4
+      name: shoot_up_00-sheet_4
       rect:
         serializedVersion: 2
-        x: 3932
+        x: 4084
         y: 0
-        width: 983
-        height: 953
+        width: 1021
+        height: 1028
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c70460ff3c2a2f40800000000000000
-      internalID: 5704420531145803721
+      spriteID: a0c5d5fdc63698c40800000000000000
+      internalID: 5515048537946938378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_5
+      name: shoot_up_00-sheet_5
       rect:
         serializedVersion: 2
-        x: 4915
+        x: 5105
         y: 0
-        width: 983
-        height: 953
+        width: 1021
+        height: 1028
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,20 +267,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a21d340f8100fdf0800000000000000
-      internalID: -148617073940163930
+      spriteID: 561708576eb7de860800000000000000
+      internalID: 7560835579168977253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_6
+      name: shoot_up_00-sheet_6
       rect:
         serializedVersion: 2
-        x: 5898
+        x: 6126
         y: 0
-        width: 983
-        height: 953
+        width: 1021
+        height: 1028
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,20 +288,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7a79719cfe2a140800000000000000
-      internalID: 4729606205655721961
+      spriteID: 803faa43bd84a1270800000000000000
+      internalID: 8221964176036918024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_7
+      name: shoot_up_00-sheet_7
       rect:
         serializedVersion: 2
-        x: 6881
+        x: 7147
         y: 0
-        width: 983
-        height: 953
+        width: 1021
+        height: 1028
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,20 +309,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a56cdbd6c2ac833e0800000000000000
-      internalID: -2073685336235588006
+      spriteID: e38901ee9a2e1e280800000000000000
+      internalID: -9015675759547606978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_8
+      name: shoot_up_00-sheet_8
       rect:
         serializedVersion: 2
-        x: 7864
+        x: 8168
         y: 0
-        width: 983
-        height: 953
+        width: 1021
+        height: 1028
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,20 +330,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30a057a02b0dd1700800000000000000
-      internalID: 512795395688303107
+      spriteID: ca91de790c609bff0800000000000000
+      internalID: -19977299094070868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_9
+      name: shoot_up_00-sheet_9
       rect:
         serializedVersion: 2
-        x: 8847
+        x: 9189
         y: 0
-        width: 983
-        height: 953
+        width: 1021
+        height: 1028
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,20 +351,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72a31e48e77f7ae40800000000000000
-      internalID: 5667770778836351527
+      spriteID: b401ace587fe5cee0800000000000000
+      internalID: -1241322822005288885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_10
+      name: shoot_up_00-sheet_10
       rect:
         serializedVersion: 2
-        x: 9830
+        x: 10210
         y: 0
-        width: 983
-        height: 953
+        width: 1021
+        height: 1028
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,8 +372,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4ccd1890efa47be0800000000000000
-      internalID: -1480364998338425778
+      spriteID: a4f7b7cd275fe5c50800000000000000
+      internalID: 6656027172974329674
       vertices: []
       indices: 
       edges: []
