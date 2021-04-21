@@ -8,16 +8,24 @@ public class CharacterController2D : CustomPhysicsObject2D
     public float jumpingSpeed = 7f;
     public float movingSpeed = 7f;
     public GameObject projectilePrefab;
+    public float gunCooldownSeconds = 1.2f;
 
     private SpriteRenderer[] spriteRenderers;
     private Animator animator;
     private bool flipX = false;
+    private float timerGunCooldown = -0.1f;
 
     private void Awake()
     {
         spriteRenderers = GetComponentsInChildren<SpriteRenderer>();
         animator = GetComponent<Animator>();
         flipX = spriteRenderers[0].flipX;
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+        timerGunCooldown -= Time.deltaTime;
     }
 
     protected override void ComputeVelocity()
@@ -53,8 +61,9 @@ public class CharacterController2D : CustomPhysicsObject2D
         var vertical = Math.Abs(Input.GetAxis("Vertical")) > 0.01;
         animator.SetBool("horizontal", horizontal);
         animator.SetBool("vertical", vertical);
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && timerGunCooldown < 0f)
         {
+            timerGunCooldown = gunCooldownSeconds;
             animator.SetTrigger("fire");
             Fire(horizontal, vertical);
         }

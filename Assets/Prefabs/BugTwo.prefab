@@ -169,3 +169,5 @@ MonoBehaviour:
   magnitude: 0.15
   targetPosition: {x: 0, y: 5, z: 0}
   movingSpeed: 5
+  dieVelocity: {x: 16, y: 16}
+  gravityMultiplier: 12

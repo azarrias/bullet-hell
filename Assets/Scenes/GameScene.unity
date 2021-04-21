@@ -922,6 +922,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8797623751517705119, guid: cb2f853d027bca3449a161988b7cbfdd,
         type: 3}
+    - target: {fileID: 3137412948422088216, guid: 24416035ba9b5b448bf512886e6a8e6f,
+        type: 3}
+      propertyPath: gunCooldownSeconds
+      value: 1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 3137412948422088219, guid: 24416035ba9b5b448bf512886e6a8e6f,
         type: 3}
       propertyPath: m_RootOrder

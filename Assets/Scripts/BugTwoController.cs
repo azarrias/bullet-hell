@@ -9,6 +9,9 @@ public class BugTwoController : MonoBehaviour
     public Vector3 targetPosition;
     public float movingSpeed = 5f;
     private Vector3 axis;
+    private bool dead;
+    public Vector2 dieVelocity;
+    public float gravityMultiplier = 5;
 
     private void Start()
     {
@@ -17,6 +20,21 @@ public class BugTwoController : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position + axis * Mathf.Sin(Time.time * frequency) * magnitude, targetPosition, movingSpeed * Time.deltaTime);
+        if (!dead)
+        {
+            transform.position = Vector3.MoveTowards(transform.position + axis * Mathf.Sin(Time.time * frequency) * magnitude, targetPosition, movingSpeed * Time.deltaTime);
+        }
+        else
+        {
+            dieVelocity += 0.5f * Physics2D.gravity * gravityMultiplier * Time.deltaTime;
+            Vector2 newPosition = transform.position;
+            newPosition += dieVelocity * Time.deltaTime;
+            transform.position = newPosition;
+        }
+    }
+
+    public void Kill()
+    {
+        dead = true;
     }
 }
