@@ -9,11 +9,13 @@ public class CharacterController2D : CustomPhysicsObject2D
     public float movingSpeed = 7f;
 
     private SpriteRenderer[] spriteRenderers;
+    private Animator animator;
     private bool flipX = false;
 
     private void Awake()
     {
         spriteRenderers = GetComponentsInChildren<SpriteRenderer>();
+        animator = GetComponent<Animator>();
         flipX = spriteRenderers[0].flipX;
     }
 
@@ -35,14 +37,15 @@ public class CharacterController2D : CustomPhysicsObject2D
             }
         }
 
-        SetSpriteFlipX(targetVelocity.x);
+        animator.SetBool("grounded", grounded);
+        animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / movingSpeed);
 
+        SetSpriteFlipX(targetVelocity.x);
         targetVelocity = targetVelocity * movingSpeed;
     }
 
     private void SetSpriteFlipX(float velocityX)
     {
-        Debug.Log(velocityX);
         var spriteFlipX = flipX ? (velocityX > 0.01f) : (velocityX < -0.01f);
         if (spriteFlipX)
         {
