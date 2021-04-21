@@ -7,6 +7,7 @@ public class CharacterController2D : CustomPhysicsObject2D
 {
     public float jumpingSpeed = 7f;
     public float movingSpeed = 7f;
+    public GameObject projectilePrefab;
 
     private SpriteRenderer[] spriteRenderers;
     private Animator animator;
@@ -48,11 +49,14 @@ public class CharacterController2D : CustomPhysicsObject2D
         animator.SetBool("grounded", grounded);
         animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / movingSpeed);
 
-        animator.SetBool("horizontal", Math.Abs(Input.GetAxis("Horizontal")) > 0.01);
-        animator.SetBool("vertical", Math.Abs(Input.GetAxis("Vertical")) > 0.01);
+        var horizontal = Math.Abs(Input.GetAxis("Horizontal")) > 0.01;
+        var vertical = Math.Abs(Input.GetAxis("Vertical")) > 0.01;
+        animator.SetBool("horizontal", horizontal);
+        animator.SetBool("vertical", vertical);
         if (Input.GetButtonDown("Fire1"))
         {
             animator.SetTrigger("fire");
+            Fire(horizontal, vertical);
         }
     }
 
@@ -67,5 +71,40 @@ public class CharacterController2D : CustomPhysicsObject2D
                 spriteRenderer.flipX = !spriteRenderer.flipX;
             }
         }
+    }
+
+    private void Fire(bool horizontal, bool vertical)
+    {
+        var relativePos = new Vector3(0, 0, 0);
+        var velocity = new Vector2(0, 0);
+
+        if (horizontal && vertical)
+        {
+            relativePos.x = 2.09f;
+            relativePos.y = 0.69f;
+            velocity.x = 1;
+            velocity.y = 1;
+        }
+        else if (vertical)
+        {
+            relativePos.x = 0.95f;
+            relativePos.y = 1.86f;
+            velocity.y = 1;
+        }
+        else
+        {
+            relativePos.x = 2.22f;
+            relativePos.y = -0.77f;
+            velocity.x = 1;
+        }
+
+        if (flipX)
+        {
+            relativePos.x *= -1;
+            velocity.x *= -1;
+        }
+
+        GameObject projectile = Instantiate(projectilePrefab, transform.position + relativePos, Quaternion.identity);
+        projectile.GetComponent<Projectile>().Init(velocity);
     }
 }
