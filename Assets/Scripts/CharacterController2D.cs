@@ -37,11 +37,23 @@ public class CharacterController2D : CustomPhysicsObject2D
             }
         }
 
+        SetSpriteFlipX(targetVelocity.x);
+        targetVelocity = targetVelocity * movingSpeed;
+    }
+
+    protected override void HandleInput()
+    {
+        base.HandleInput();
+
         animator.SetBool("grounded", grounded);
         animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / movingSpeed);
 
-        SetSpriteFlipX(targetVelocity.x);
-        targetVelocity = targetVelocity * movingSpeed;
+        animator.SetBool("horizontal", Math.Abs(Input.GetAxis("Horizontal")) > 0.01);
+        animator.SetBool("vertical", Math.Abs(Input.GetAxis("Vertical")) > 0.01);
+        if (Input.GetButtonDown("Fire1"))
+        {
+            animator.SetTrigger("fire");
+        }
     }
 
     private void SetSpriteFlipX(float velocityX)

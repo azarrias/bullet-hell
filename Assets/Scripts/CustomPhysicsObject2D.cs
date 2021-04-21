@@ -37,6 +37,7 @@ public class CustomPhysicsObject2D : MonoBehaviour
     {
         targetVelocity = Vector2.zero;
         ComputeVelocity();
+        HandleInput();
     }
 
     private void FixedUpdate()
@@ -59,6 +60,10 @@ public class CustomPhysicsObject2D : MonoBehaviour
     }
 
     protected virtual void ComputeVelocity()
+    {
+    }
+
+    protected virtual void HandleInput()
     {
     }
 
