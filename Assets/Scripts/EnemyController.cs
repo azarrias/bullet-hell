@@ -32,6 +32,7 @@ public class EnemyController : MonoBehaviour
     {
         dead = true;
         spriteRenderer.flipY = true;
+        Destroy(gameObject, 5);
     }
 
     protected virtual void RegularMove()

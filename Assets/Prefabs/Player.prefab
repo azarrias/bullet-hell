@@ -135,9 +135,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 155c1034b826f86438b34bf8788522d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravityMultiplier: 3
+  gravityMultiplier: 8
   minimumGroundNormalY: 0.65
-  jumpingSpeed: 24
+  jumpingSpeed: 40
   movingSpeed: 20
   projectilePrefab: {fileID: 8797623751517705119, guid: cb2f853d027bca3449a161988b7cbfdd,
     type: 3}

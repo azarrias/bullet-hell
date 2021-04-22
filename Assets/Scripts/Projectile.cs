@@ -10,6 +10,11 @@ public class Projectile : MonoBehaviour
     private Vector2 velocity;
     private float gravityMultiplier;
 
+    private void Start()
+    {
+        Destroy(gameObject, 2);
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -38,5 +43,4 @@ public class Projectile : MonoBehaviour
         this.velocity = velocity;
         this.gravityMultiplier = gravityMultiplier;
     }
-
 }
