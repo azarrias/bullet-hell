@@ -813,17 +813,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3137412948422088216, guid: 24416035ba9b5b448bf512886e6a8e6f,
-        type: 3}
-      propertyPath: projectilePrefab
-      value: 
-      objectReference: {fileID: 8797623751517705119, guid: cb2f853d027bca3449a161988b7cbfdd,
-        type: 3}
-    - target: {fileID: 3137412948422088216, guid: 24416035ba9b5b448bf512886e6a8e6f,
-        type: 3}
-      propertyPath: gunCooldownSeconds
-      value: 1.2
-      objectReference: {fileID: 0}
     - target: {fileID: 3137412948422088219, guid: 24416035ba9b5b448bf512886e6a8e6f,
         type: 3}
       propertyPath: m_RootOrder
@@ -878,32 +867,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4648523561787419739, guid: 24416035ba9b5b448bf512886e6a8e6f,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 3.8401988
-      objectReference: {fileID: 0}
-    - target: {fileID: 4648523561787419739, guid: 24416035ba9b5b448bf512886e6a8e6f,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 3.0732841
-      objectReference: {fileID: 0}
-    - target: {fileID: 4648523561787419739, guid: 24416035ba9b5b448bf512886e6a8e6f,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -3925208612285489071, guid: 70e9f6a4862b6a544b9bf2027e636eb5,
-        type: 3}
-    - target: {fileID: 5538778596144020396, guid: 24416035ba9b5b448bf512886e6a8e6f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5538778596144020396, guid: 24416035ba9b5b448bf512886e6a8e6f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24416035ba9b5b448bf512886e6a8e6f, type: 3}

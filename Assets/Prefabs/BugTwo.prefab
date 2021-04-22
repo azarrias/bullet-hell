@@ -167,7 +167,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dieVelocity: {x: 16, y: 16}
   dyingGravityMultiplier: 12
+  projectilePrefab: {fileID: 1869712598014950999, guid: edc68ea6731063648b2a05a2ae26896b,
+    type: 3}
   frequency: 15
-  magnitude: 0.15
+  magnitude: 0.1
   targetPosition: {x: 0, y: 5, z: 0}
   movingSpeed: 5

@@ -116,4 +116,9 @@ public class CharacterController2D : CustomPhysicsObject2D
         GameObject projectile = Instantiate(projectilePrefab, transform.position + relativePos, Quaternion.identity);
         projectile.GetComponent<Projectile>().Init(velocity);
     }
+
+    public void Damage()
+    {
+        Debug.Log("Pupita");
+    }
 }
