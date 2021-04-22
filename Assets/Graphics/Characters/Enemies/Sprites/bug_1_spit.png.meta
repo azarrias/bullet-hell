@@ -85,7 +85,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -159,8 +159,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1001
-        height: 380
+        width: 500.53845
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +178,10 @@ TextureImporter:
       name: bug_1_spit_1
       rect:
         serializedVersion: 2
-        x: 1001
+        x: 500
         y: 0
-        width: 1001
-        height: 380
+        width: 500.53845
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,10 +199,10 @@ TextureImporter:
       name: bug_1_spit_2
       rect:
         serializedVersion: 2
-        x: 2002
+        x: 1000
         y: 0
-        width: 1001
-        height: 380
+        width: 500.53845
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +220,10 @@ TextureImporter:
       name: bug_1_spit_3
       rect:
         serializedVersion: 2
-        x: 3003
+        x: 1500
         y: 0
-        width: 1001
-        height: 380
+        width: 500.53845
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: bug_1_spit_4
       rect:
         serializedVersion: 2
-        x: 4004
+        x: 2000
         y: 0
-        width: 1001
-        height: 380
+        width: 500.53845
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,10 +262,10 @@ TextureImporter:
       name: bug_1_spit_5
       rect:
         serializedVersion: 2
-        x: 5005
+        x: 2500
         y: 0
-        width: 1001
-        height: 380
+        width: 500.53845
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +283,10 @@ TextureImporter:
       name: bug_1_spit_6
       rect:
         serializedVersion: 2
-        x: 6006
+        x: 3000
         y: 0
-        width: 1001
-        height: 380
+        width: 500.53845
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: bug_1_spit_7
       rect:
         serializedVersion: 2
-        x: 7007
+        x: 3500
         y: 0
-        width: 1001
-        height: 380
+        width: 500.53845
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,10 +325,10 @@ TextureImporter:
       name: bug_1_spit_8
       rect:
         serializedVersion: 2
-        x: 8008
+        x: 4000
         y: 0
-        width: 1001
-        height: 380
+        width: 500.53845
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,10 +346,10 @@ TextureImporter:
       name: bug_1_spit_9
       rect:
         serializedVersion: 2
-        x: 9009
+        x: 4500
         y: 0
-        width: 1001
-        height: 380
+        width: 500.53845
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,10 +367,10 @@ TextureImporter:
       name: bug_1_spit_10
       rect:
         serializedVersion: 2
-        x: 10010
+        x: 5000
         y: 0
-        width: 1001
-        height: 380
+        width: 500.53845
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,10 +388,10 @@ TextureImporter:
       name: bug_1_spit_11
       rect:
         serializedVersion: 2
-        x: 11011
+        x: 5500
         y: 0
-        width: 1001
-        height: 380
+        width: 500.53845
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,10 +409,10 @@ TextureImporter:
       name: bug_1_spit_12
       rect:
         serializedVersion: 2
-        x: 12012
+        x: 6000
         y: 0
-        width: 1001
-        height: 380
+        width: 500.53845
+        height: 190
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

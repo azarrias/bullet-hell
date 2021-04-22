@@ -96,7 +96,7 @@ public class CharacterController2D : CustomPhysicsObject2D
         }
         else if (vertical)
         {
-            relativePos.x = 0.95f;
+            relativePos.x = 0f;
             relativePos.y = 1.86f;
             velocity.y = 1;
         }

@@ -85,7 +85,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -159,8 +159,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 564
-        height: 780
+        width: 282
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +178,10 @@ TextureImporter:
       name: plant_spit_1
       rect:
         serializedVersion: 2
-        x: 564
+        x: 282
         y: 0
-        width: 564
-        height: 780
+        width: 282
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,10 +199,10 @@ TextureImporter:
       name: plant_spit_2
       rect:
         serializedVersion: 2
-        x: 1128
+        x: 564
         y: 0
-        width: 564
-        height: 780
+        width: 282
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +220,10 @@ TextureImporter:
       name: plant_spit_3
       rect:
         serializedVersion: 2
-        x: 1692
+        x: 846
         y: 0
-        width: 564
-        height: 780
+        width: 282
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: plant_spit_4
       rect:
         serializedVersion: 2
-        x: 2256
+        x: 1128
         y: 0
-        width: 564
-        height: 780
+        width: 282
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,10 +262,10 @@ TextureImporter:
       name: plant_spit_5
       rect:
         serializedVersion: 2
-        x: 2820
+        x: 1410
         y: 0
-        width: 564
-        height: 780
+        width: 282
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +283,10 @@ TextureImporter:
       name: plant_spit_6
       rect:
         serializedVersion: 2
-        x: 3384
+        x: 1692
         y: 0
-        width: 564
-        height: 780
+        width: 282
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: plant_spit_7
       rect:
         serializedVersion: 2
-        x: 3948
+        x: 1974
         y: 0
-        width: 564
-        height: 780
+        width: 282
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,10 +325,10 @@ TextureImporter:
       name: plant_spit_8
       rect:
         serializedVersion: 2
-        x: 4512
+        x: 2256
         y: 0
-        width: 564
-        height: 780
+        width: 282
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,10 +346,10 @@ TextureImporter:
       name: plant_spit_9
       rect:
         serializedVersion: 2
-        x: 5076
+        x: 2538
         y: 0
-        width: 564
-        height: 780
+        width: 282
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,10 +367,10 @@ TextureImporter:
       name: plant_spit_10
       rect:
         serializedVersion: 2
-        x: 5640
+        x: 2820
         y: 0
-        width: 564
-        height: 780
+        width: 282
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,10 +388,10 @@ TextureImporter:
       name: plant_spit_11
       rect:
         serializedVersion: 2
-        x: 6204
+        x: 3102
         y: 0
-        width: 564
-        height: 780
+        width: 282
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,10 +409,10 @@ TextureImporter:
       name: plant_spit_12
       rect:
         serializedVersion: 2
-        x: 6768
+        x: 3384
         y: 0
-        width: 564
-        height: 780
+        width: 282
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

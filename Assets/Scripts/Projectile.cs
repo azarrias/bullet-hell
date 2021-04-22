@@ -19,7 +19,7 @@ public class Projectile : MonoBehaviour
         var collider = Physics2D.OverlapCircle(transform.position, 0.5f, layerMask);
         if (collider != null)
         {
-            collider.gameObject.GetComponent<BugTwoController>().Kill();
+            collider.gameObject.GetComponent<EnemyController>().Kill();
         }
     }
 

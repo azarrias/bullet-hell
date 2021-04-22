@@ -121,7 +121,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -195,10 +195,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: run_legs_1
       rect:
         serializedVersion: 2
-        x: 558
+        x: 279
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: run_legs_2
       rect:
         serializedVersion: 2
-        x: 1116
+        x: 558
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: run_legs_3
       rect:
         serializedVersion: 2
-        x: 1674
+        x: 837
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: run_legs_4
       rect:
         serializedVersion: 2
-        x: 2232
+        x: 1116
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: run_legs_5
       rect:
         serializedVersion: 2
-        x: 2790
+        x: 1395
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: run_legs_6
       rect:
         serializedVersion: 2
-        x: 3348
+        x: 1674
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -340,12 +340,12 @@ TextureImporter:
       name: run_legs_7
       rect:
         serializedVersion: 2
-        x: 3906
+        x: 1953
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -361,12 +361,12 @@ TextureImporter:
       name: run_legs_8
       rect:
         serializedVersion: 2
-        x: 4464
+        x: 2232
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -382,12 +382,12 @@ TextureImporter:
       name: run_legs_9
       rect:
         serializedVersion: 2
-        x: 5022
+        x: 2511
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -403,12 +403,12 @@ TextureImporter:
       name: run_legs_10
       rect:
         serializedVersion: 2
-        x: 5580
+        x: 2790
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: run_legs_11
       rect:
         serializedVersion: 2
-        x: 6138
+        x: 3069
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -445,12 +445,12 @@ TextureImporter:
       name: run_legs_12
       rect:
         serializedVersion: 2
-        x: 6696
+        x: 3348
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -466,12 +466,12 @@ TextureImporter:
       name: run_legs_13
       rect:
         serializedVersion: 2
-        x: 7254
+        x: 3627
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -487,12 +487,12 @@ TextureImporter:
       name: run_legs_14
       rect:
         serializedVersion: 2
-        x: 7812
+        x: 3906
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -508,12 +508,12 @@ TextureImporter:
       name: run_legs_15
       rect:
         serializedVersion: 2
-        x: 8370
+        x: 4185
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -529,12 +529,12 @@ TextureImporter:
       name: run_legs_16
       rect:
         serializedVersion: 2
-        x: 8928
+        x: 4464
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -550,12 +550,12 @@ TextureImporter:
       name: run_legs_17
       rect:
         serializedVersion: 2
-        x: 9486
+        x: 4743
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -571,12 +571,12 @@ TextureImporter:
       name: run_legs_18
       rect:
         serializedVersion: 2
-        x: 10044
+        x: 5022
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -592,12 +592,12 @@ TextureImporter:
       name: run_legs_19
       rect:
         serializedVersion: 2
-        x: 10602
+        x: 5301
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -613,12 +613,12 @@ TextureImporter:
       name: run_legs_20
       rect:
         serializedVersion: 2
-        x: 11160
+        x: 5580
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -634,12 +634,12 @@ TextureImporter:
       name: run_legs_21
       rect:
         serializedVersion: 2
-        x: 11718
+        x: 5859
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -655,12 +655,12 @@ TextureImporter:
       name: run_legs_22
       rect:
         serializedVersion: 2
-        x: 12276
+        x: 6138
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -676,12 +676,12 @@ TextureImporter:
       name: run_legs_23
       rect:
         serializedVersion: 2
-        x: 12834
+        x: 6417
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -697,12 +697,12 @@ TextureImporter:
       name: run_legs_24
       rect:
         serializedVersion: 2
-        x: 13392
+        x: 6696
         y: 0
-        width: 558
-        height: 346
+        width: 279
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

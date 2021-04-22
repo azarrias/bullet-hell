@@ -109,7 +109,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -183,8 +183,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: plaant_idle_1
       rect:
         serializedVersion: 2
-        x: 550
+        x: 275
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: plaant_idle_2
       rect:
         serializedVersion: 2
-        x: 1100
+        x: 550
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: plaant_idle_3
       rect:
         serializedVersion: 2
-        x: 1650
+        x: 825
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: plaant_idle_4
       rect:
         serializedVersion: 2
-        x: 2200
+        x: 1100
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: plaant_idle_5
       rect:
         serializedVersion: 2
-        x: 2750
+        x: 1375
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: plaant_idle_6
       rect:
         serializedVersion: 2
-        x: 3300
+        x: 1650
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: plaant_idle_7
       rect:
         serializedVersion: 2
-        x: 3850
+        x: 1925
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: plaant_idle_8
       rect:
         serializedVersion: 2
-        x: 4400
+        x: 2200
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: plaant_idle_9
       rect:
         serializedVersion: 2
-        x: 4950
+        x: 2475
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +391,10 @@ TextureImporter:
       name: plaant_idle_10
       rect:
         serializedVersion: 2
-        x: 5500
+        x: 2750
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +412,10 @@ TextureImporter:
       name: plaant_idle_11
       rect:
         serializedVersion: 2
-        x: 6050
+        x: 3025
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,10 +433,10 @@ TextureImporter:
       name: plaant_idle_12
       rect:
         serializedVersion: 2
-        x: 6600
+        x: 3300
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,10 +454,10 @@ TextureImporter:
       name: plaant_idle_13
       rect:
         serializedVersion: 2
-        x: 7150
+        x: 3575
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,10 +475,10 @@ TextureImporter:
       name: plaant_idle_14
       rect:
         serializedVersion: 2
-        x: 7700
+        x: 3850
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +496,10 @@ TextureImporter:
       name: plaant_idle_15
       rect:
         serializedVersion: 2
-        x: 8250
+        x: 4125
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,10 +517,10 @@ TextureImporter:
       name: plaant_idle_16
       rect:
         serializedVersion: 2
-        x: 8800
+        x: 4400
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,10 +538,10 @@ TextureImporter:
       name: plaant_idle_17
       rect:
         serializedVersion: 2
-        x: 9350
+        x: 4675
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,10 +559,10 @@ TextureImporter:
       name: plaant_idle_18
       rect:
         serializedVersion: 2
-        x: 9900
+        x: 4950
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +580,10 @@ TextureImporter:
       name: plaant_idle_19
       rect:
         serializedVersion: 2
-        x: 10450
+        x: 5225
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -601,10 +601,10 @@ TextureImporter:
       name: plaant_idle_20
       rect:
         serializedVersion: 2
-        x: 11000
+        x: 5500
         y: 0
-        width: 550
-        height: 631
+        width: 275
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

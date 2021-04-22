@@ -79,7 +79,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -153,10 +153,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1021
-        height: 1028
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 510.54544
+        height: 514
+      alignment: 9
+      pivot: {x: 0.78, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -172,12 +172,12 @@ TextureImporter:
       name: shoot_up_00-sheet_1
       rect:
         serializedVersion: 2
-        x: 1021
+        x: 510
         y: 0
-        width: 1021
-        height: 1028
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 510.54544
+        height: 514
+      alignment: 9
+      pivot: {x: 0.78, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,12 +193,12 @@ TextureImporter:
       name: shoot_up_00-sheet_2
       rect:
         serializedVersion: 2
-        x: 2042
+        x: 1020
         y: 0
-        width: 1021
-        height: 1028
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 510.54544
+        height: 514
+      alignment: 9
+      pivot: {x: 0.78, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: shoot_up_00-sheet_3
       rect:
         serializedVersion: 2
-        x: 3063
+        x: 1530
         y: 0
-        width: 1021
-        height: 1028
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 510.54544
+        height: 514
+      alignment: 9
+      pivot: {x: 0.78, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: shoot_up_00-sheet_4
       rect:
         serializedVersion: 2
-        x: 4084
+        x: 2040
         y: 0
-        width: 1021
-        height: 1028
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 510.54544
+        height: 514
+      alignment: 9
+      pivot: {x: 0.78, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: shoot_up_00-sheet_5
       rect:
         serializedVersion: 2
-        x: 5105
+        x: 2550
         y: 0
-        width: 1021
-        height: 1028
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 510.54544
+        height: 514
+      alignment: 9
+      pivot: {x: 0.78, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: shoot_up_00-sheet_6
       rect:
         serializedVersion: 2
-        x: 6126
+        x: 3060
         y: 0
-        width: 1021
-        height: 1028
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 510.54544
+        height: 514
+      alignment: 9
+      pivot: {x: 0.78, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: shoot_up_00-sheet_7
       rect:
         serializedVersion: 2
-        x: 7147
+        x: 3570
         y: 0
-        width: 1021
-        height: 1028
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 510.54544
+        height: 514
+      alignment: 9
+      pivot: {x: 0.78, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: shoot_up_00-sheet_8
       rect:
         serializedVersion: 2
-        x: 8168
+        x: 4080
         y: 0
-        width: 1021
-        height: 1028
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 510.54544
+        height: 514
+      alignment: 9
+      pivot: {x: 0.78, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -340,12 +340,12 @@ TextureImporter:
       name: shoot_up_00-sheet_9
       rect:
         serializedVersion: 2
-        x: 9189
+        x: 4590
         y: 0
-        width: 1021
-        height: 1028
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 510.54544
+        height: 514
+      alignment: 9
+      pivot: {x: 0.78, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -361,12 +361,12 @@ TextureImporter:
       name: shoot_up_00-sheet_10
       rect:
         serializedVersion: 2
-        x: 10210
+        x: 5100
         y: 0
-        width: 1021
-        height: 1028
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 510.54544
+        height: 514
+      alignment: 9
+      pivot: {x: 0.78, y: 0.52}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

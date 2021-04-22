@@ -79,7 +79,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -153,8 +153,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 381
-        height: 287
+        width: 190.54546
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: idle_legs_1
       rect:
         serializedVersion: 2
-        x: 381
+        x: 190
         y: 0
-        width: 381
-        height: 287
+        width: 190.54546
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +193,10 @@ TextureImporter:
       name: idle_legs_2
       rect:
         serializedVersion: 2
-        x: 762
+        x: 380
         y: 0
-        width: 381
-        height: 287
+        width: 190.54546
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: idle_legs_3
       rect:
         serializedVersion: 2
-        x: 1143
+        x: 570
         y: 0
-        width: 381
-        height: 287
+        width: 190.54546
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: idle_legs_4
       rect:
         serializedVersion: 2
-        x: 1524
+        x: 760
         y: 0
-        width: 381
-        height: 287
+        width: 190.54546
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +256,10 @@ TextureImporter:
       name: idle_legs_5
       rect:
         serializedVersion: 2
-        x: 1905
+        x: 950
         y: 0
-        width: 381
-        height: 287
+        width: 190.54546
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +277,10 @@ TextureImporter:
       name: idle_legs_6
       rect:
         serializedVersion: 2
-        x: 2286
+        x: 1140
         y: 0
-        width: 381
-        height: 287
+        width: 190.54546
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +298,10 @@ TextureImporter:
       name: idle_legs_7
       rect:
         serializedVersion: 2
-        x: 2667
+        x: 1330
         y: 0
-        width: 381
-        height: 287
+        width: 190.54546
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +319,10 @@ TextureImporter:
       name: idle_legs_8
       rect:
         serializedVersion: 2
-        x: 3048
+        x: 1520
         y: 0
-        width: 381
-        height: 287
+        width: 190.54546
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +340,10 @@ TextureImporter:
       name: idle_legs_9
       rect:
         serializedVersion: 2
-        x: 3429
+        x: 1710
         y: 0
-        width: 381
-        height: 287
+        width: 190.54546
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +361,10 @@ TextureImporter:
       name: idle_legs_10
       rect:
         serializedVersion: 2
-        x: 3810
+        x: 1900
         y: 0
-        width: 381
-        height: 287
+        width: 190.54546
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

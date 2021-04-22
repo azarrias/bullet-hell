@@ -94,7 +94,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -168,8 +168,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: bug_2_1
       rect:
         serializedVersion: 2
-        x: 591
+        x: 295
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,10 +208,10 @@ TextureImporter:
       name: bug_2_2
       rect:
         serializedVersion: 2
-        x: 1182
+        x: 590
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,10 +229,10 @@ TextureImporter:
       name: bug_2_3
       rect:
         serializedVersion: 2
-        x: 1773
+        x: 885
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: bug_2_4
       rect:
         serializedVersion: 2
-        x: 2364
+        x: 1180
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,10 +271,10 @@ TextureImporter:
       name: bug_2_5
       rect:
         serializedVersion: 2
-        x: 2955
+        x: 1475
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: bug_2_6
       rect:
         serializedVersion: 2
-        x: 3546
+        x: 1770
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,10 +313,10 @@ TextureImporter:
       name: bug_2_7
       rect:
         serializedVersion: 2
-        x: 4137
+        x: 2065
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +334,10 @@ TextureImporter:
       name: bug_2_8
       rect:
         serializedVersion: 2
-        x: 4728
+        x: 2360
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,10 +355,10 @@ TextureImporter:
       name: bug_2_9
       rect:
         serializedVersion: 2
-        x: 5319
+        x: 2655
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,10 +376,10 @@ TextureImporter:
       name: bug_2_10
       rect:
         serializedVersion: 2
-        x: 5910
+        x: 2950
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,10 +397,10 @@ TextureImporter:
       name: bug_2_11
       rect:
         serializedVersion: 2
-        x: 6501
+        x: 3245
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,10 +418,10 @@ TextureImporter:
       name: bug_2_12
       rect:
         serializedVersion: 2
-        x: 7092
+        x: 3540
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,10 +439,10 @@ TextureImporter:
       name: bug_2_13
       rect:
         serializedVersion: 2
-        x: 7683
+        x: 3835
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,10 +460,10 @@ TextureImporter:
       name: bug_2_14
       rect:
         serializedVersion: 2
-        x: 8274
+        x: 4130
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,10 +481,10 @@ TextureImporter:
       name: bug_2_15
       rect:
         serializedVersion: 2
-        x: 8865
+        x: 4425
         y: 0
-        width: 591
-        height: 757
+        width: 295.5
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

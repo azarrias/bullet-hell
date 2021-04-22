@@ -79,7 +79,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -153,8 +153,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1049
-        height: 763
+        width: 524.5455
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: idle_diagonal_00-sheet_1
       rect:
         serializedVersion: 2
-        x: 1049
+        x: 524
         y: 0
-        width: 1049
-        height: 763
+        width: 524.5455
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +193,10 @@ TextureImporter:
       name: idle_diagonal_00-sheet_2
       rect:
         serializedVersion: 2
-        x: 2098
+        x: 1048
         y: 0
-        width: 1049
-        height: 763
+        width: 524.5455
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: idle_diagonal_00-sheet_3
       rect:
         serializedVersion: 2
-        x: 3147
+        x: 1572
         y: 0
-        width: 1049
-        height: 763
+        width: 524.5455
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: idle_diagonal_00-sheet_4
       rect:
         serializedVersion: 2
-        x: 4196
+        x: 2096
         y: 0
-        width: 1049
-        height: 763
+        width: 524.5455
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +256,10 @@ TextureImporter:
       name: idle_diagonal_00-sheet_5
       rect:
         serializedVersion: 2
-        x: 5245
+        x: 2620
         y: 0
-        width: 1049
-        height: 763
+        width: 524.5455
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +277,10 @@ TextureImporter:
       name: idle_diagonal_00-sheet_6
       rect:
         serializedVersion: 2
-        x: 6294
+        x: 3144
         y: 0
-        width: 1049
-        height: 763
+        width: 524.5455
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +298,10 @@ TextureImporter:
       name: idle_diagonal_00-sheet_7
       rect:
         serializedVersion: 2
-        x: 7343
+        x: 3668
         y: 0
-        width: 1049
-        height: 763
+        width: 524.5455
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +319,10 @@ TextureImporter:
       name: idle_diagonal_00-sheet_8
       rect:
         serializedVersion: 2
-        x: 8392
+        x: 4192
         y: 0
-        width: 1049
-        height: 763
+        width: 524.5455
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +340,10 @@ TextureImporter:
       name: idle_diagonal_00-sheet_9
       rect:
         serializedVersion: 2
-        x: 9441
+        x: 4716
         y: 0
-        width: 1049
-        height: 763
+        width: 524.5455
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +361,10 @@ TextureImporter:
       name: idle_diagonal_00-sheet_10
       rect:
         serializedVersion: 2
-        x: 10490
+        x: 5240
         y: 0
-        width: 1049
-        height: 763
+        width: 524.5455
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
